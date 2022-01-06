@@ -3,13 +3,27 @@
 {{ with .Param "author" -}}
 <meta name="author" content="{{ . }}" />
 {{- end }}
-          {{ with .Param "tags" -}}
+{{ with .Param "tags" -}}
 <meta name="keywords" content="
                                {{- range sort (sort .) -}} {{- . }} {{ end -}}
-" />
-          {{- end }}
-          {{ with .Summary -}}
-          <meta name="description" content="{{ . }}" />
-          {{- end }}
+                               " />
+{{- end }}
+{{ with .Summary -}}
+<meta name="description" content="{{ . }}" />
+{{- end }}
 
-          <link rel="stylesheet" type="text/css" href="/style.css" encoding="UTF-8" />
+{{/* Alternative output formats for this page */}}
+{{- range .AlternativeOutputFormats }}
+{{- printf `
+<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{/* Code License */}}
+<link rel="license" type="text/html" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" />
+{{/* Content License */}}
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/" />
+
+{{/* Main stylesheet */}}
+<link rel="stylesheet" type="text/css" href="/css/style.css" encoding="UTF-8" />
+{{/* Syntax highlighting */}}
+<link rel="stylesheet" type="text/css" href="/css/syntax.css" encoding="UTF-8" />
