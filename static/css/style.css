@@ -44,3 +44,19 @@ main {
    height: 3rem;
    background: #ccc;
 }
+
+@media (min-width: 800px) {
+.features {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.feature {
+    flex-grow: 1;
+    flex: 1 1 25%;
+    min-width: 400px;
+    text-align: center;
+}
+}
