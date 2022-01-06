@@ -2,6 +2,12 @@ title = "Odilia Screen Reader"
 baseURL = "https://odilia.app"
 languageCode = "en-us"
 
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    lineNos = true
+    noClasses = false
+
 [menu]
   [[menu.main]]
   title = "Code"
