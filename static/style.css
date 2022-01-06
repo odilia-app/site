@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.global-nav {
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    background-color: #ccc;
+    border-bottom: 1px solid #888;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.nav-item .active {
+    background-color: #aaa;
+    font-weight: bold;
+}

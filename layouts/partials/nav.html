@@ -1,0 +1,17 @@
+<nav class="global-nav">
+    <ul class="nav-list">
+        {{- $currentPage := . -}}
+
+        {{- range .Site.Menus.main }}
+        <li class="nav-item">
+          <a href="{{ .URL }}"
+            class="nav-link
+            {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active" aria-current="true" {{- else -}} " {{- end -}}>
+            {{- .Pre }}
+            {{ .Title }}
+            {{- .Post }}
+          </a>
+        </li>
+        {{ end -}}
+    </ul>
+</nav>

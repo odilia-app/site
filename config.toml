@@ -1,3 +1,9 @@
-baseURL = 'https://odilia.app'
-languageCode = 'en-us'
-title = 'Odilia Screen Reader'
+title = "Odilia Screen Reader"
+baseURL = "https://odilia.app"
+languageCode = "en-us"
+
+[menu]
+  [[menu.main]]
+  title = "Code"
+  url = "https://github.com/odilia-app"
+  weight =  -100
