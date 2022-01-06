@@ -2,6 +2,9 @@
 title: "The First Prototype Has been Released!"
 date: 2021-10-26T03:00:00Z
 draft: false
+tags:
+  - release
+  - prototype
 ---
 
 We know it has been a long time, however we are delighted to inform you that the first Odilia prototype is up on GitHub,

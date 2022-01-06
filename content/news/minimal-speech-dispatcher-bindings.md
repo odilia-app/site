@@ -2,6 +2,10 @@
 title: "Minimal speech-dispatcher Bindings Created"
 date: 2021-09-22T03:00:00Z
 draft: false
+tags:
+  - api
+  - rust
+  - speech
 ---
 
 
@@ -17,6 +21,6 @@ keys, and getting and setting voice parameters such as rate, pitch, and volume.
 
 In our view, that can't mean anything else but one step closer to the first Yggdrasil prototype!
 
-[spd-rs]: https://github.com/yggdrasil-sr/tts_subsystem
+[spd-rs]: https://github.com/odilia-app/tts_subsystem
 [spd-sys]: https://github.com/ndarilek/speech-dispatcher-sys
     [tts-rs]: https://github.com/ndarilek/tts-rs
