@@ -1,0 +1,14 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{{ with .Param "author" -}}
+<meta name="author" content="{{ . }}" />
+{{- end }}
+          {{ with .Param "tags" -}}
+<meta name="keywords" content="
+                               {{- range sort (sort .) -}} {{- . }} {{ end -}}
+" />
+          {{- end }}
+          {{ with .Summary -}}
+          <meta name="description" content="{{ . }}" />
+          {{- end }}
+
