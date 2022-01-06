@@ -1,6 +1,6 @@
 ---
 title: "Minimal speech-dispatcher Bindings Created"
-date: 2022-01-06T23:23:20Z
+date: 2021-09-22T03:00:00Z
 draft: false
 ---
 
