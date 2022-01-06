@@ -1,9 +1,20 @@
-body {
+html, body {
     box-sizing: border-box;
-    background-color: white;
-    color: black;
+    height: 100%;
     margin: 0;
     padding: 0;
+    background-color: white;
+    color: black;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+main {
+    padding: 0.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .global-nav {
@@ -24,4 +35,12 @@ body {
 .nav-item .active {
     background-color: #aaa;
     font-weight: bold;
+}
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100vw;
+   height: 3rem;
+   background: #ccc;
 }

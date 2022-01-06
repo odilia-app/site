@@ -5,10 +5,14 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
 </head>
 <body>
+    <div id="container">
     {{ partial "nav.html" . }}
 
     <main>
       {{ block "main" . -}} {{- end }}
     </main>
+
+    {{ partial "footer.html" . }}
+    </div>
 </body>
 </html>
