@@ -1,7 +1,7 @@
 ---
 title: "Minimal speech-dispatcher Bindings Created"
 authors: ["bgt-lover"]
-date: 2021-09-22T03:00:00Z
+date: 2021-09-22T15:24:01Z
 draft: false
 tags:
   - api
