@@ -1,0 +1,21 @@
+{{- define "main" -}}
+<h1>Author: {{ .Title }}</h1>
+{{ partial "alt-formats.html" . }}
+{{ .Content }}
+{{ with .Pages }}
+<hr>
+<section aria-label="Articles by {{ $.Title }}" role="feed" aria-setsize="{{ len . }}">
+{{ range . }}
+<article>
+<header>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                {{ partial "post-info" . }}
+                </header>
+                    {{ .Summary }}
+                    <a href="{{ .RelPermalink }}">Read More</a>
+        </article>
+{{ end }}
+</section>
+</ol>
+{{ end }}
+{{- end -}}

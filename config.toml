@@ -2,6 +2,10 @@ title = "Odilia Screen Reader"
 baseURL = "https://odilia.app"
 languageCode = "en-us"
 
+[taxonomies]
+	author = "authors"
+        tag = "tags"
+
 [markup]
   [markup.highlight]
     guessSyntax = true

@@ -1,5 +1,6 @@
 ---
 title: "The First Prototype Has been Released!"
+authors: ["bgt-lover"]
 date: 2021-10-26T03:00:00Z
 draft: false
 tags:

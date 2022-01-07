@@ -1,5 +1,14 @@
 <small>
     Published on <time datetime="{{- .Date.Format "2006-01-02" -}}">{{- .Date.Format "January 2, 2006" -}}</time>
+    {{- with .Param "authors" }}
+    by
+        {{ range $index, $author := sort (sort .) }}
+        {{- if gt $index 0 -}} , {{ end -}}
+        {{ with $.Site.GetPage (printf "/authors/%s" ($author | urlize)) -}}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
     &middot; {{ .ReadingTime }} minute{{- if not (eq .ReadingTime 1) -}}s{{- end }} read
     {{- with .Param "tags" }}
     <br>
