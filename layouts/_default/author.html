@@ -2,6 +2,18 @@
 <h1>Author: {{ .Title }}</h1>
 {{ partial "alt-formats.html" . }}
 {{ .Content }}
+{{- with .Param "email" }}
+<a
+        href="mailto:{{ . }}"
+        title="{{ . }}"
+    target="_blank">Email</a>>
+{{ end -}}
+{{- with .Param "github" }}
+<a
+    href="https://github.com/{{ . }}"
+    title="@{{ . }}"
+    target="_blank">Github</a>>
+{{ end -}}
 {{ with .Pages }}
 <hr>
 <section aria-label="Articles by {{ $.Title }}" role="feed" aria-setsize="{{ len . }}">
