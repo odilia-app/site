@@ -5,7 +5,7 @@ html, body {
     color: black;
 }
 
-#container {
+main {
     margin: 0rem 1rem;
 }
 
@@ -31,6 +31,7 @@ html, body {
 
 #footer {
    background: #ccc;
+   padding: 1rem;
 }
 
 @media (max-width: 800px) {
