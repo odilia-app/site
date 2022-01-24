@@ -1,23 +1,37 @@
-
-@media (prefers-color-scheme: dark) {
 html, body {
-    background-color: #222;
-    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+main {
+    margin: 0rem 1rem;
+}
+
+.nav-item {
+    margin: 1rem;
+    display: inline;
 }
 
 .global-nav {
     padding: 1rem;
-    background-color: #111;
+    background-color: #ccc;
     border-bottom: 1px solid #888;
 }
 
+.nav-list {
+    list-style: none;
+}
+
 .nav-item .active {
-    background-color: #333;
+    background-color: #aaa;
+    font-weight: bold;
 }
 
 #footer {
-   background: #111;
-}
+   background: #ccc;
+   padding: 1rem;
 }
 
 @media (max-width: 800px) {
