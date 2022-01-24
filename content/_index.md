@@ -1,5 +1,5 @@
 ---
-title: "home"
+title: "Home"
 date: 2022-01-06t20:53:58z
 draft: false
 menu:
@@ -50,10 +50,11 @@ blind, partially sighted, and good eye sight in the [Catholic](https://en.wikipe
 [Eastern Orthodox](https://en.wikipedia.org/wiki/Eastern_Orthodox_Church) churches. We hope that we can, in a sense,
 return the lost sense of sight to blind Linux desktop users, and make using their computer easier and more fun!
 
-**Disclaimer**: Even in the Odilia development team, we have people who believe in different religions, cathlic,
-orthodox, even atheists, so we in no way picked the name of Odilia to spite anyone, specifically because it belongs to
-any religion, neither do we imply by it that one religion is better than another. We simply believe that strong names
-are of value, that's why we chose something that had some symbolism behind it.
+**Disclaimer**: 
+Within the Odilia development team, we have people with a very wide swatch of religious backgrounds: Catholic, Orthodox, Atheist, Muslim, etc.
+We aren't endorsing any religion, living or dead.
+The name symbolizes, to us, the right ideals and goals.
+That's all.
 
 In its earliest stages of development, this project was called [Yggdrasil](https://en.wikipedia.org/wiki/Yggdrasil),
 associating the mythical descriptions of the tree with how accessibility should unify the world. Though we changed it
