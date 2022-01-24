@@ -2,8 +2,9 @@
 title: "TheFake VIP"
 date: 2022-01-07T00:05:47Z
 draft: false
-github: mcb2003
 email: mikey@blindcomputing.org
+github: mcb2003
+website: thefakevip.xyz
 ---
 
 I’m a visually impaired computer programmer, web developer, open source advocate, hardware enthusiast, video editor,

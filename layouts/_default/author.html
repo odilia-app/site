@@ -1,7 +1,6 @@
 {{- define "main" -}}
 <h1>Author: {{ .Title }}</h1>
 {{ partial "alt-formats.html" . }}
-{{ .Content }}
 {{- with .Param "email" }}
 <a
         href="mailto:{{- . -}}"
@@ -14,6 +13,13 @@
     title="@{{- . -}}"
     target="_blank">Github</a>
 {{ end -}}
+{{- with .Param "website" }}
+<a
+    href="https://{{- . -}}"
+    title="{{- . -}}"
+    target="_blank">Website</a>
+{{ end -}}
+{{ .Content }}
 {{ with .Pages }}
 <hr>
 <section aria-label="Articles by {{ $.Title }}" role="feed" aria-setsize="{{ len . }}">
