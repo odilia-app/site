@@ -41,7 +41,7 @@ Configure any keyboard shortcut, mouse button or touch gesture to activate any O
 addons! You can customise any default keybinding, either directly in the config file with a text editor, or in an
 intuative graphical application.
 
-And hopefully muchmore!
+And hopefully much more!
 
 ## Why the Name?
 
