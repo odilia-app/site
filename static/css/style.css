@@ -34,6 +34,27 @@ main {
    padding: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+html, body {
+    background-color: #222;
+    color: white;
+}
+
+.global-nav {
+    padding: 1rem;
+    background-color: #111;
+    border-bottom: 1px solid #888;
+}
+
+.nav-item .active {
+    background-color: #333;
+}
+
+#footer {
+   background: #111;
+}
+}
+
 @media (max-width: 800px) {
   .nav-item {
       display: block;
