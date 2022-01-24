@@ -4,7 +4,7 @@
 {{ .Content }}
 {{ with .Pages }}
 <hr>
-<section aria-label="Articles" role="feed" aria-setsize="{{ len . }}">
+<section aria-label="Articles in tag {{ $.Title -}}" role="feed" aria-setsize="{{ len . }}">
 {{ range . }}
 <article>
 <header>

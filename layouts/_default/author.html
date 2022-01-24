@@ -4,15 +4,15 @@
 {{ .Content }}
 {{- with .Param "email" }}
 <a
-        href="mailto:{{ . }}"
-        title="{{ . }}"
-    target="_blank">Email</a>>
+        href="mailto:{{- . -}}"
+        title="{{- . -}}"
+    target="_blank">Email</a>
 {{ end -}}
 {{- with .Param "github" }}
 <a
-    href="https://github.com/{{ . }}"
-    title="@{{ . }}"
-    target="_blank">Github</a>>
+    href="https://github.com/{{- . -}}"
+    title="@{{- . -}}"
+    target="_blank">Github</a>
 {{ end -}}
 {{ with .Pages }}
 <hr>
