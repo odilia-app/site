@@ -2,6 +2,7 @@
 <article>
     <header>
 <h1>{{ .Title }}</h1>
+{{ partial "post-info.html" . }}
     </header>
 {{ .Content }}
 </article>
