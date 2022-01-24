@@ -1,5 +1,5 @@
 ---
-title: "Design of the Odilia Screen Reader"
+title: "Design"
 date: 2021-09-06T23:17:02Z
 draft: false
 menu:
