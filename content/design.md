@@ -1,6 +1,6 @@
 ---
 title: "Design"
-date: 2021-09-06T23:17:02Z
+date: 2022-01-25T11:25:28Z
 draft: false
 menu:
   main:
