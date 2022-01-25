@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     background-color: #222222;
     color: white;
+    font: -apple-system, helvetica, arial, sans-serif;
 }
 
 main {
