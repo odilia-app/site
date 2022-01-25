@@ -15,9 +15,9 @@ For this to be doable, we'd need roughly the following to be implemented:
 
 An event manager(runs on the main thread)
 
-: this is the central hub for events. From here, events are received by system services like At-spi, ATK and so on, then propagated to the components interested in that particular event. Note: Each component should register with the hub for every event it wants to receive.  
+: this is the central hub for events. From here, events are received by system services like AT-SPI, ATK and so on, then propagated to the components interested in that particular event. Note: Each component should register with the hub for every event it wants to receive.  
 
-The event hub should also reference the At-spi registry, and should register all the events the entire screen reader needs, then propagate them to the appropriate components. Running on another thread should not only be discouraged, but actively prohibited, for example by not implementing send and sync.
+The event hub should also reference the AT-SPI registry, and should register all the events the entire screen reader needs, then propagate them to the appropriate components. Running on another thread should not only be discouraged, but actively prohibited, for example by not implementing send and sync.
 
 Component protocol(can run on multiple threads)
 
