@@ -133,3 +133,4 @@ When it finds the gesture corresponding to the event it got from the hub, it rea
 - [The Speech Synthesis Interface Protocol (SSIP) API documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/ssip.html).
 - [Liblouis bindings for rust](https://github.com/whentze/liblouis-rust), for braille tables and multiple braille codes, including those for the majority of languages
 - [Libbrlapi reference manual](https://brltty.app/doc/Manual-BrlAPI/English/BrlAPI.html).
+- [Accessible Document Navigation Using AT-SPI](https://accessibility.linuxfoundation.org/a11yspecs/atspi/adoc/ADOC_ATSPI.html#rendering)
