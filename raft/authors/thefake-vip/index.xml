@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TheFake VIP on Odilia Screen Reader</title>
+    <link>http://localhost:1313/authors/thefake-vip/</link>
+    <description>Recent content in TheFake VIP on Odilia Screen Reader</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jan 2022 00:05:47 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/thefake-vip/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

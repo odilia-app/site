@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: white;
+    font: -apple-system, helvetica, arial, sans-serif;
+}
+
+main {
+    margin: 0rem 1rem;
+}
+
+.nav-item {
+    margin: 1rem;
+    display: inline;
+}
+
+.global-nav {
+    padding: 1rem;
+    background-color: #333;
+    border-bottom: 1px solid #888;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item .active {
+    font-weight: bold;
+}
+
+#footer {
+   background: #333;
+   padding: 1rem;
+}
+
+a {
+  color: #58d;
+}
+a:visited {
+  color: #ff3492;
+}
+
+@media (max-width: 800px) {
+  .nav-item {
+      display: block;
+  }
+}

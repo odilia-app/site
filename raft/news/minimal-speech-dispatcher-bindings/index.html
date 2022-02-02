@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="keywords" content="api rust speech " />
+<meta name="description" content="As of afew days ago, a minimal binding to speech-dispatcher (the TTS system for Linux) was created, which
+wraps the C functions provided by Nolan&rsquo;s speech-dispatcher-sys crate in a safe Rust API." />
+
+
+<link rel="license" type="text/html" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" />
+
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/" />
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" encoding="UTF-8" />
+
+<link rel="stylesheet" type="text/css" href="/css/syntax.css" encoding="UTF-8" />
+
+    <title>Minimal speech-dispatcher Bindings Created | Odilia Screen Reader</title>
+</head>
+<body>
+    <div id="container">
+    <nav class="global-nav">
+    <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/"
+            class="nav-link">
+            Home
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/news/"
+            class="nav-link active" aria-current="true">
+            News
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/design/"
+            class="nav-link">
+            Design
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://github.com/odilia-app"
+            class="nav-link">
+            Code
+          </a>
+        </li>
+        </ul>
+</nav>
+
+
+    <main>
+      <article>
+    <header>
+<h1>Minimal speech-dispatcher Bindings Created</h1>
+<small>
+    Published on <time datetime="2021-09-22">September 22, 2021</time>
+    by <a href="http://localhost:1313/authors/bgt-lover/">BGT Lover</a>&middot; 1 minute read
+
+    
+
+    <br>
+    <nav aria-label="Post tags">
+        <a href="http://localhost:1313/tags/api/">api</a> &middot; <a href="http://localhost:1313/tags/rust/">rust</a> &middot; <a href="http://localhost:1313/tags/speech/">speech</a></nav>
+    </small>
+
+    </header>
+<p>As of afew days ago, a <a href="https://github.com/odilia-app/tts_subsystem">minimal binding to speech-dispatcher</a> (the TTS system for Linux) was created, which
+wraps the C functions provided by <a href="https://github.com/ndarilek/speech-dispatcher-sys">Nolan&rsquo;s <code>speech-dispatcher-sys</code> crate</a> in a safe Rust API.</p>
+<p>That means the
+speech component of Yggdrasil can now be implemented after the at-spi components are completed, as well as in other Rust
+projects that need Linux only TTS, or want more control than the <a href="https://github.com/ndarilek/tts-rs">tts crate</a> gives them.</p>
+<p>These bindings are far from complete, but do provide the essential functionality, such as speaking text, characters and
+keys, and getting and setting voice parameters such as rate, pitch, and volume.</p>
+<p>In our view, that can&rsquo;t mean anything else but one step closer to the first Yggdrasil prototype!</p>
+</article>
+    </main>
+
+    <footer id="footer">
+    Copyright &copy; 2022
+    <a href="https://github.com/orgs/odilia-app/people" target="_blank">the Odilia developers</a>
+    (Code is <a rel="license" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" target="blank">AGPL 3</a>,
+    content is <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank">CC-BY-SA 4.0</a>)
+</footer>
+
+    </div>
+</body>
+</html>

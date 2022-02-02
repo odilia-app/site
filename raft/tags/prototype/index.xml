@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prototype on Odilia Screen Reader</title>
+    <link>http://localhost:1313/tags/prototype/</link>
+    <description>Recent content in prototype on Odilia Screen Reader</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Oct 2021 22:45:41 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The First Prototype Has been Released!</title>
+      <link>http://localhost:1313/news/first-prototype/</link>
+      <pubDate>Tue, 26 Oct 2021 22:45:41 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/first-prototype/</guid>
+      <description>We know it has been a long time, however we are delighted to inform you that the first Odilia prototype is up on GitHub, with a very early alpha stage build for anyone curious enough to try it out.
+If you want to try it out, the link is here:
+https://github.com/yggdrasil-sr/yggdrasil-prototype/releases/
+the screen reader can&amp;rsquo;t do much at the moment, however this is what it can do so far
+  like any normal screen reader, it can read most components exposed by the Linux accessibility interface, such as buttons, checkboxes, radio buttons, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

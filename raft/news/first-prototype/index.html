@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="keywords" content="prototype release " />
+<meta name="description" content="We know it has been a long time, however we are delighted to inform you that the first Odilia prototype is up on GitHub, with a very early alpha stage build for anyone curious enough to try it out.
+If you want to try it out, the link is here:
+https://github.com/yggdrasil-sr/yggdrasil-prototype/releases/
+the screen reader can&rsquo;t do much at the moment, however this is what it can do so far
+  like any normal screen reader, it can read most components exposed by the Linux accessibility interface, such as buttons, checkboxes, radio buttons, etc." />
+
+
+<link rel="license" type="text/html" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" />
+
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/" />
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" encoding="UTF-8" />
+
+<link rel="stylesheet" type="text/css" href="/css/syntax.css" encoding="UTF-8" />
+
+    <title>The First Prototype Has been Released! | Odilia Screen Reader</title>
+</head>
+<body>
+    <div id="container">
+    <nav class="global-nav">
+    <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/"
+            class="nav-link">
+            Home
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/news/"
+            class="nav-link active" aria-current="true">
+            News
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/design/"
+            class="nav-link">
+            Design
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://github.com/odilia-app"
+            class="nav-link">
+            Code
+          </a>
+        </li>
+        </ul>
+</nav>
+
+
+    <main>
+      <article>
+    <header>
+<h1>The First Prototype Has been Released!</h1>
+<small>
+    Published on <time datetime="2021-10-26">October 26, 2021</time>
+    by <a href="http://localhost:1313/authors/bgt-lover/">BGT Lover</a>&middot; 3 minutes read
+
+    
+
+    <br>
+    <nav aria-label="Post tags">
+        <a href="http://localhost:1313/tags/prototype/">prototype</a> &middot; <a href="http://localhost:1313/tags/release/">release</a></nav>
+    </small>
+
+    </header>
+<p>We know it has been a long time, however we are delighted to inform you that the first Odilia prototype is up on GitHub,
+with a very early alpha stage build for anyone curious enough to try it out.</p>
+<p>If you want to try it out, the link is here:</p>
+<p><a href="https://github.com/yggdrasil-sr/yggdrasil-prototype/releases/">https://github.com/yggdrasil-sr/yggdrasil-prototype/releases/</a></p>
+<p>the screen reader can&rsquo;t do much at the moment, however this is what it can do so far</p>
+<ul>
+<li>
+<p>like any normal screen reader, it can read most components exposed by the Linux accessibility interface, such as
+buttons, checkboxes, radio buttons, etc.  An exception to this is the WebView control and interacting with text boxes,
+though the latter might be implemented around the end of the week, if everything goes well.</p>
+</li>
+<li>
+<p>some web elements can be navigated through and interacted with, for example links, buttons, checkboxes, forms, etc,
+even though text inside the webview and quick navigation doesn&rsquo;t work yet. As we all know, this is the first release
+of an alpha quality software, so feel free to report bugs by opening issues against the repository. However, here are
+some known issues that we will attempt to fix in the next couple releases, so no need to report those</p>
+</li>
+<li>
+<p>sometimes, the name or text of a control might not be announced, the speech saying something like &ldquo;:button&rdquo;, mark the
+punctuation.  This is most likely caused by at-spi sending events to Odilia before the controls actually finished
+loading, so the control names and other attributes might not be filled in by the time Odilia gets the event, though
+they aren&rsquo;t null since the data exists somewhere, just didn&rsquo;t exist then.</p>
+</li>
+<li>
+<p>if a control uses something else than name or text to label itself, for example tooltips, Odilia won&rsquo;t pick those as
+valid ways of labeling, so it will either speak the same as described above, or it could even say unlabeled in some
+cases</p>
+</li>
+<li>
+<p>currently, there&rsquo;s no other way to quit the screen reader other than sending it a keyboard interrupt signal, or
+killing the process in another way. This is because the binding generators we work with make stuff more complicated,
+so no keyboard handlers in this release.</p>
+</li>
+<li>
+<p>on some machines, it&rsquo;s reported that the screen reader doesn&rsquo;t read window titles when cycling between them with
+alt+tab. Currently, we don&rsquo;t know why this is, but we&rsquo;re investigating still.</p>
+</li>
+</ul>
+<p>The road to here was a very rough one indeed, however we are excited we could bring this to you, as demo quality as this
+is. This means much to us, it proves progress is being done, against all odds.</p>
+<p>If you want to see more content from us, consider visiting our website more often, this way you won&rsquo;t lose anything.
+Furthermore, you will get information from the source of the project, so you can confirm its authenticity for yourself</p>
+
+</article>
+    </main>
+
+    <footer id="footer">
+    Copyright &copy; 2022
+    <a href="https://github.com/orgs/odilia-app/people" target="_blank">the Odilia developers</a>
+    (Code is <a rel="license" href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" target="blank">AGPL 3</a>,
+    content is <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank">CC-BY-SA 4.0</a>)
+</footer>
+
+    </div>
+</body>
+</html>
