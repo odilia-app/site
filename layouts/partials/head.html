@@ -1,8 +1,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-{{ with .Param "author" -}}
-<meta name="author" content="{{ . }}" />
-{{- end }}
+    {{- with .Param "authors" }}
+    {{ range $index, $author := sort (sort .) -}}
+        {{ with $.Site.GetPage (printf "/authors/%s" ($author | urlize)) -}}
+        <meta name="author" content="{{ .Title }}" />
+        {{- end }}
+        {{- end }}
+        {{- end }}
 {{ with .Param "tags" -}}
 <meta name="keywords" content="
                                {{- range sort (sort .) -}} {{- . }} {{ end -}}
