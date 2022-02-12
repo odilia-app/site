@@ -33,6 +33,8 @@ to actually implement the real thing. The prototype code, while functional, prio
 and thus we'll be throwing almost all of it out completely, but the code is far less important than the experience we
 gained from writing it.
 
+<!--more-->
+
 As far as I'm concerned, ditching the prototype completely was always part of the plan. From personal experience, large
 projects always get rewritten after a while, so I figured it would be better to plan for that, and reap the benefits of
 a clean, modular codebase, hopefully free of bad decisions. It does, however, mean we might not have another release out
