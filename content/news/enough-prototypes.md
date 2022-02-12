@@ -5,6 +5,7 @@ date: 2022-02-02T12:06:49+02:00
 draft: false
 tags:
   - prototype
+  - rust
 ---
 
 As of afew days ago, we decided we played enough with the tools and components of the linux accessibility stack to be
