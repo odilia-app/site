@@ -2,6 +2,8 @@
 title: "One More Thing - Final Prototype Released"
 authors: [thefake-vip]
 date: 2022-02-12T11:47:27Z
+lastmod: 2022-03-17T13:03:27Z
+editor: thefake-vip
 tags:
   - prototype
   - release
@@ -37,7 +39,13 @@ gained from writing it.
 
 As far as I'm concerned, ditching the prototype completely was always part of the plan. From personal experience, large
 projects always get rewritten after a while, so I figured it would be better to plan for that, and reap the benefits of
-a clean, modular codebase, hopefully free of bad decisions. It does, however, mean we might not have another release out
+a clean, modular codebase, hopefully free of bad decisions.
+
+> Plan to throw one away; You will, anyhow.
+
+Fred Brooks - the Mythical Man-Month
+
+It does, however, mean we might not have another release out
 for a while. So we decided to glue together the latest work in the prototype, get it compiling, and release it, as a
 *very early* look at what Odilia could be in the future.
 
