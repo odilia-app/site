@@ -9,7 +9,7 @@
             {{- if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active" aria-current="true" {{- else -}} " {{- end -}}>
             {{- .Pre }}
             {{ .Title }}
-            {{- .Post }}
+            {{- .Post -}}
           </a>
         </li>
         {{ end -}}
