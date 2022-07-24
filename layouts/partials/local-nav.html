@@ -1,11 +1,16 @@
-{{ if (or .PrevInSection .NextInSection) }}
 <nav class="local-nav" aria-label="local">
-    {{ with .PrevInSection }}
+    {{ with .PrevInSection -}}
     <a class="local-nav-prev" href="{{ .RelPermalink }}" title="Prev: {{ .Title }}" aria-label="Previous">&larr;</a>
-    {{ end }}
+    {{ end -}}
 
-    {{ with .NextInSection }}
+    {{/* Breadcrumbs */}}
+    {{ if .Parent -}}
+    <span aria-label="Breadcrumbs">
+        {{ partial "breadcrumbs.html" . }}
+    </span>
+    {{ end -}}
+
+    {{ with .NextInSection -}}
     <a class="local-nav-next" href="{{ .RelPermalink }}" title="Next: {{ .Title }}" aria-label="Next">&rarr;</a>
-    {{ end }}
+    {{ end -}}
 </nav>
-{{ end }}

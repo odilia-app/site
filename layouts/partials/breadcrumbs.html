@@ -1,0 +1,6 @@
+{{ with .Parent -}}
+    {{ partial "breadcrumbs.html" . }}
+    {{- if .Parent }} / {{ end -}}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+{{- end }}
+
