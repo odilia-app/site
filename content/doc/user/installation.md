@@ -30,6 +30,7 @@ The following dependencies are required to build and run Odilia:
 * [at-spi2-core](https://gitlab.gnome.org/GNOME/at-spi2-core) - accessibility infrestructure
     * Odilia doesn't use libatspi, it interacts with AT-SPI over DBus directly
     * At-spi required a DBus daemon
+* [evdev](https://manpages.ubuntu.com/manpages/jammy/man4/evdev.4.html) - input subsystem
 
 ## Packages
 
@@ -52,3 +53,19 @@ cargo build --release
 # Optionally, install Odilia:
 cargo install --path .
 ```
+
+## Running
+
+
+To run Odilia, your user account must have access to evdev devices. Evdev is
+normally a privileged interface, since any application that can access it could
+use it for malicious purposes, for example, creating a keylogger. For this
+reason, to run Odilia, you must give yourself access to evdev. This can be done
+by running the [setup-permissions.sh shell script][permissions-script] included
+with Odilia. The script adds some udev rules, then creates an odilia group. Any
+users added to this group and the `input` group will be able to run Odilia.
+
+[permissions-script]: <https://github.com/odilia-app/odilia/blob/main/setup-permissions.sh>
+
+Once you have the correct permissions, you can start Odilia by running the
+`odilia` binary.
