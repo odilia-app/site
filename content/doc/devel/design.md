@@ -3,7 +3,7 @@ title: "Design"
 linkTitle: "Design Overview"
 date: 2022-07-24T13:53:51+01:00
 lastmod: 2022-08-12T15:29:37+01:00
-draft: true
+draft: false
 aliases:
   - /design
 weight: -110

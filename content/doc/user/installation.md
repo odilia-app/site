@@ -2,7 +2,7 @@
 title: "Installing Odilia"
 linkTitle: "Installation"
 date: 2022-07-24T14:03:55+01:00
-draft: true
+draft: false
 weight: -20
 ---
 

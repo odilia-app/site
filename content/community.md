@@ -18,13 +18,10 @@ directly]({{< relref "authors" >}}) if you wish.
 
 ## Contributing
 
-This is a very young project, we appreciate any and all contributions! However, please be aware there is a very llarge
-learning curve to helping with this project, particularly due to the lack of documentation, or **complete**
-documentation, of many of the libraries and technologies that comprise the Linux accessibility stack. For this reason,
-we are currently focused on learning as much as we can, and writing code to take advantage of it, and we don't have lots
-of time to mentor new contributors or review pull requests.
+There are many ways you can contribute to Odilia.
 
-Once the ground-work has been layed, accepting contributions should get much easier. We are greatful for your
-cooperation in this regard!
-
+1. If you're a developer, send us a pull-request. Help us make Odilia better by fixing an [outstanding issue](https://github.com/odilia-app/odilia/issues/).
+2. If you're a user, [install Odilia](/doc/user/installation/), and *report your bugs and feature requests to us* [on Github](https://github.com/odilia-app/odilia/issues/). If you don't have a Github account, feel free to send an email to [issues@odilia.app](mailto:issues@odilia.app) and we'll add the issue on Github for you.
+3. If you believe in our cause, consider donating to one of us, as we continue to develop this project. It allows us to spend more time on Odilia, and less time at work.
+    * Tait Hoyem -- [Librapay](https://liberapay.com/tait/)
 
