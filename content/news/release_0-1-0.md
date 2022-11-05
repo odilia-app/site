@@ -2,7 +2,7 @@
 title: "Odilia Version 0.1.0 Released"
 authors: ["tait"]
 draft: true
-date: 2022-09-27T17:30:18-06:00
+date: 2022-11-05T12:30:18-06:00
 tags:
   - release
   - odilia
@@ -36,6 +36,6 @@ And here is a short roadmap of what we want to complete before an official, non-
 * Addon support
 
 We encourage those curious about new tech to [download Odilia](/doc/user/installation/) and give it a fair shake.
-We're looking forward to making this with you all.
+We're looking forward to making this with you all!
 
----Tait Hoyem and the Odilia team
+---The Odilia Team
