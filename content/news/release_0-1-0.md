@@ -1,5 +1,5 @@
 ---
-title: "Odilia Version 0.1 Released"
+title: "Odilia Version 0.1.0 Released"
 authors: ["tait"]
 draft: true
 date: 2022-09-27T17:30:18-06:00
@@ -21,23 +21,21 @@ Here is a quick list of what Odilia is capable of as of today:
 
 * Reading web pages
 * Limited structural navigation
-* Reading GTK applications
+* Reading GTK and QT applications
 * Configurable voices/rate via `speechd.conf`.
 
 Here is a small list of things which Odilia does not yet currently do, which we are slating for the 0.2 release later this year:
 
-* Reading QT applications
 * More advanced structural navigation
 * Change voice settings from within Odilia
-* Limited addon support
 
 And here is a short roadmap of what we want to complete before an official, non-testing release sometime in 2023:
 
 * Automated cache updates
 * Stability improvements
-* Full addon support
+* Addon support
 
 We encourage those curious about new tech to [download Odilia](/doc/user/installation/) and give it a fair shake.
 We're looking forward to making this with you all.
 
--- Tait Hoyem
+---Tait Hoyem and the Odilia team
