@@ -279,7 +279,7 @@ a:visited {
   color: var(--visited-link-color);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .nav-item {
       display: block;
   }
