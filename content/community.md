@@ -21,7 +21,7 @@ directly]({{< relref "authors" >}}) if you wish.
 There are many ways you can contribute to Odilia.
 
 1. If you're a developer, send us a pull-request. Help us make Odilia better by fixing an [outstanding issue](https://github.com/odilia-app/odilia/issues/).
-2. If you're a user, [install Odilia](/doc/user/installation/), and *report your bugs and feature requests to us* [on Github](https://github.com/odilia-app/odilia/issues/). If you don't have a Github account, feel free to send an email to [issues@odilia.app](mailto:issues@odilia.app) and we'll add the issue on Github for you.
+2. If you're a user, [install Odilia](/doc/user/installation/), and *report your bugs and feature requests to us* [on Github](https://github.com/odilia-app/odilia/issues/).
 3. If you believe in our cause, consider donating to one of us, as we continue to develop this project. It allows us to spend more time on Odilia, and less time at work.
     * Tait Hoyem -- [Librapay](https://liberapay.com/tait/)
 
