@@ -26,6 +26,28 @@ Here is a list of keybindings as of the latest release:
   * `b` -- go to next button
   * `shift + h` -- go to previous heading
   * `h` -- go to next heading
+  * `shift + g` -- go to previous graphic
+  * `g` -- go to next graphic
+  * `shift + f` -- go to previous form
+  * `f` -- go to next form
+  * `shift + t` -- go to previous table
+  * `t` -- go to next table
+  * `shift + r` -- go to previous radio button
+  * `r` -- go to next radio button
+  * `shift + x` -- go to previous checkbox
+  * `x` -- go to next checkbox
+  * `shift + c` -- go to previous radio button
+  * `c` -- go to next combo box
+  * `shift + s` -- go to previous section
+  * `s` -- go to next section
+  * `shift + m` -- go to previous math
+  * `m` -- go to next math
+  * `shift + a` -- go to previous frame
+  * `a` -- go to next frame
+  * `shift + minus` -- go to previous separator
+  * `minus` -- go to next separator
+  * `shift + e` -- go to previous entry
+  * `e` -- go to next entry
 * `capslock + f` -- enable focus mode
 
 Suggest a new key binding by opening a new issue on [Github](https://github.com/odilia-app/odilia/issues/).
@@ -38,7 +60,6 @@ Suggest a new key binding by opening a new issue on [Github](https://github.com/
 
 ## What Doesn't Work
 
-* QT Applications (see list of [popular QT applications](https://wiki.manjaro.org/index.php?title=List_of_Qt_Applications))
 * `aria-live` regions on a web-page will not update in real time.
 * Terminals -- Odilia will read the entire buffer, not just the new lines.
 
