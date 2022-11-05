@@ -60,5 +60,6 @@ symbolism behind them.
 
 ## Under Active Development
 
-This website as well as the software itself is in its early stages and under active development, please check back at a
-later stage to see more exciting news and documentation, or [subscribe to our RSS feed](news/index.xml).
+This website as well as the software itself is in its early stages and under active development!
+We're actively looking for contributors!
+Please feel free to open an issue in Github or create a pull-request for new features.
