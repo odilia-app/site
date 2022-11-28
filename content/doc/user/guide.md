@@ -15,6 +15,9 @@ we are happy to expand as feature requests arise.
 
 Here is a list of keybindings as of the latest release:
 
+* `left` and `right` -- change text granularity to a single character
+* `control + left` and `control + right` -- change text granularity to a single word
+* `up` and `down` -- change text granularity to a single line
 * `capslock + b` -- enable browse mode
   * `shift + i` -- go to previous list item
   * `i` -- go to next list item
