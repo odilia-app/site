@@ -230,7 +230,7 @@ html {
     --foreground-color: white;
     --secondary-background-color: var(--color-gray-6);
     --border-color: var(--color-gray-4);
-    --link-color: var(--color-teal-2);
+    --link-color: var(--color-azure-3);
     --visited-link-color: var(--color-pink-3);
 }
 
