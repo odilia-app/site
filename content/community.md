@@ -15,6 +15,7 @@ directly]({{< relref "authors" >}}) if you wish.
 
 [matrix-space]: <https://matrix.to/#/#odilia-screen-reader:matrix.org>
 [discord-invite]: <https://discord.gg/gWsfXz76xX>
+[IRC @ libra.chat]: #odilia-dev
 
 ## Contributing
 
