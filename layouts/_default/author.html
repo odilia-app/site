@@ -7,6 +7,12 @@
         title="{{- . -}}"
     target="_blank">Email</a>
 {{ end -}}
+{{- with .Param "matrix" }}
+<a
+        href="https://matrix.to/#/{{- . -}}"
+        title="{{- . -}}"
+    target="_blank">Matrix</a>
+{{ end -}}
 {{- with .Param "github" }}
 <a
     href="https://github.com/{{- . -}}"

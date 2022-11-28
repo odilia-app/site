@@ -1,0 +1,32 @@
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<hr>
+
+{{ with .Pages -}}
+{{/* Leaf pages */}}
+{{ with where . "IsNode" false -}}
+<section aria-label="Pages in this section">
+<ul>
+{{ range . -}}
+<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+{{ end -}}
+</ul>
+</section>
+{{ end -}}
+
+{{/* Subsections */}}
+{{ range $idx, $page := (where . "IsNode" true) -}}
+<section aria-labelledby="section-heading-{{- $idx -}}">
+<h2 id="section-heading-{{- $idx -}}"><a href="{{ $page.RelPermalink }}">{{ $page.LinkTitle }}</a></h2>
+{{ with $page.Pages -}}
+<ul>
+{{ range . -}}
+<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+{{ end -}}
+</ul>
+{{ end -}}
+</section>
+{{ end -}}
+{{- end -}}
+{{- end -}}
