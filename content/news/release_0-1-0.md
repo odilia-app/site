@@ -2,18 +2,18 @@
 title: "Odilia Version 0.1.0 Released"
 authors: ["tait"]
 draft: true
-date: 2022-11-05T12:30:18-06:00
+date: 2022-11-27T12:30:18-06:00
 tags:
   - release
   - odilia
 ---
 
-After many months of hard work, we are proud to announce the initial, alpha release of Odilia:
-the new, *fast*, lightweight, screenreader for Linux, written in Rust.
+After many months of hard work, we are proud to announce the initial, beta release of Odilia:
+a new, *fast*, lightweight, screenreader for Linux.
 Thanks to all the others on the team: BGT Lover, and FakeVIP who have been instrumental in creating this project.
 
 Don't get us wrong, this is still in its initial stages.
-However, there is enough functionality to use it, and we want to get it out into the hands of other developers and testers to make this even better for the alpha 2 release (0.2), which we're aiming to complete by the end of this year (December 2022).
+However, there is enough functionality to use it, and we want to get it out into the hands of other developers and testers to make this even better for the beta 2 release (0.2), which we're aiming to complete by the end of this year (December 2022).
 **Things will break.**
 Please help us make this better so that we can create the next generation of accessible software for Linux.
 
