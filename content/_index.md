@@ -9,9 +9,6 @@ menu:
 
 # Welcome to Odilia!
 
-Accessibility on Linux has historically been under-developed, under-maintained, and therefore not up to modern standards
-for many blind people. We're here to help with that!
-
 Odilia is a new screen reader for the Linux desktop. It's written in [Rust](https://rust-lang.org), for maximum
 performance and stability.
 
