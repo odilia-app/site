@@ -19,8 +19,9 @@ directly]({{< relref "authors" >}}) if you wish.
 
 ## Contributing
 
-We are so excited to already have some great contributors for the Odilia project and some of its associated libraries.
-Please, [open a Github issue](https://github.com/odilia-app/odilia/issues/), or send us a patch so we can make Odilia the best open-source screen reader!
-Our community makes us who we are.
-We can't wait for you to join us!
+There are many ways you can contribute to Odilia.
 
+1. If you're a developer, send us a pull-request. Help us make Odilia better by fixing an [outstanding issue](https://github.com/odilia-app/odilia/issues/).
+2. If you're a user, [install Odilia](/doc/user/installation/), and *report your bugs and feature requests to us* [on Github](https://github.com/odilia-app/odilia/issues/).
+3. If you believe in our cause, consider donating to one of us, as we continue to develop this project. It allows us to spend more time on Odilia, and less time at work.
+    * Tait Hoyem -- [Librapay](https://liberapay.com/tait/)

@@ -252,7 +252,7 @@ main {
 }
 
 .global-nav {
-    padding: 1rem;
+    padding: 0.2rem;
     background-color: var(--secondary-background-color);
     border-bottom: 1px solid var(--border-color);
 }
@@ -279,15 +279,7 @@ a:visited {
   color: var(--visited-link-color);
 }
 
-.local-nav-prev {
-    float: left;
-}
-
-.local-nav-prev {
-    float: right;
-}
-
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .nav-item {
       display: block;
   }

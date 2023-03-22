@@ -12,8 +12,6 @@ menu:
 Odilia is a new screen reader for the Linux desktop. It's written in [Rust](https://rust-lang.org), for maximum
 performance and stability.
 
-<!--more-->
-
 On top of what screen reading features we already have on Linux, we intend to add roughly the following:
 
 ## Addons
@@ -21,7 +19,7 @@ On top of what screen reading features we already have on Linux, we intend to ad
 You're no longer limited to built-in functionality! Install addons from third-party developers to extend Odilia with
 new commands and abilities. Or, if you're a developer, write your own in one of several languages.
 
-## Object Nav
+## Object Navigation
 
 Navigate applications as a tree of accessible objects, making it easy to interact with parts of the interface that are
 partly inaccessible, don't play well with keyboard focus, or are hard to use. No mouse required!
@@ -62,5 +60,6 @@ symbolism behind them.
 
 ## Under Active Development
 
-This website as well as the software itself is in its early stages and under active development, please check back at a
-later stage to see more exciting news and documentation, or [subscribe to our RSS feed](news/index.xml).
+This website as well as the software itself is in its early stages and under active development!
+We're actively looking for contributors!
+Please feel free to open an issue in Github or create a pull-request for new features.
