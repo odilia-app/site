@@ -1,7 +1,7 @@
 ---
 title: "Odilia Version 0.1.0 Released"
 authors: ["tait"]
-draft: true
+draft: false
 date: 2023-03-21T22:30:18-06:00
 tags:
   - release
