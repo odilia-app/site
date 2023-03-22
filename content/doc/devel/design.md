@@ -30,6 +30,14 @@ access and present the content in applications and the desktop environment.
 
 [at-spi]: <https://www.freedesktop.org/wiki/Accessibility/AT-SPI>
 
+### [odilia-cache][odilia-cache] -- A Cache for Accessibile Items on the Desktop
+
+[odilia-cache]: <https://github.com/odilia-app/odilia/tree/main/cache>
+
+This subsystem handles a cache that makes Odilia very fast.
+If you want to help in the performance department of Odilia, this is what to look at.
+Help us make the hashmap easier to index, the references faster to dereference, and the cache items easier to copy.
+
 ### [odilia-common][odilia-common] -- Common Algorithms, Data Types and Structures
 
 [odilia-common]: <https://github.com/odilia-app/odilia/tree/main/common>
@@ -41,8 +49,8 @@ work with keybindings, types used in structural navigation, and types used to re
 
 [odilia-input]: <https://github.com/odilia-app/odilia/tree/main/input>
 
-This crate is responsible for handling input events from devices such as keyboards, mice, and touch screens. It can
-swallow input events or pass them onto the application.
+This crate is responsible for handling input events from devices such as keyboards, mice, and touch screens.
+It doesn't implement any input methods, it only allows input methods to be configured.
 
 ### [odilia-tts][odilia-tts] -- Text to Speech
 
@@ -52,6 +60,7 @@ This handles talking to [speech-dispatcher][speechd] for text to speech synthesi
 spoken.
 
 [speechd]: <https://freebsoft.org/speechd>
+
 ## Dependencies and Technologies
 
 ### [Tokio][tokio] -- Asynchronous Runtime

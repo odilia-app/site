@@ -5,7 +5,7 @@ draft: false
 weight: -100
 ---
 
-## At-spi
+## AT-SPI
 
 * [General overview](https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/), with several links
 * [Accessible Document Navigation Using AT-SPI](https://accessibility.linuxfoundation.org/a11yspecs/atspi/adoc/ADOC_ATSPI.html#rendering)
