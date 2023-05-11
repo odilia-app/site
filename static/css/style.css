@@ -243,7 +243,9 @@ body {
 }
 
 main {
-    margin: 0rem 1rem;
+    max-width: 50rem;
+    margin-inline: auto;
+    padding: 1rem;
 }
 
 .nav-item {
@@ -266,24 +268,25 @@ main {
 }
 
 #footer {
-   background: var(--secondary-background-color);
-   border-top: 1px solid var(--border-color);
-   padding: 1rem;
+    background: var(--secondary-background-color);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem;
 }
 
 a {
-  color: var(--link-color);
+    color: var(--link-color);
 }
 
 a:visited {
-  color: var(--visited-link-color);
+    color: var(--visited-link-color);
 }
 
 @media (max-width: 700px) {
-  .nav-item {
-      display: block;
-  }
+    .nav-item {
+        display: block;
+    }
 }
+
 @media (prefers-color-scheme: light) {
     html {
         --background-color: white;
