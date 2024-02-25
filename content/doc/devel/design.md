@@ -102,7 +102,7 @@ to, the applications they're presenting to the user. On the Linux desktop, this 
 We use the [zbus crate][zbus] ([book][zbus-book]) to talk over DBus. It is asynchronous by default, and integrates well with the [Tokio async runtime](#tokiotokio----asynchronous-runtime).
 
 [zbus]: <https://crates.io/crates/zbus>
-[zbus-book]: <https://dbus.pages.freedesktop.org/zbus/1.0/>
+[zbus-book]: <https://dbus2.github.io/zbus/>
 
 Most of the [atspi crate](#atspiatspi-crate----accessibility-interface) was generated using [zbus_xmlgen][zbus_xmlgen]
 from the [at-spi DBus interface XML definitions][at-spi-xml]. Note, however, that zbus_xmlgen is, at present, meant to be
