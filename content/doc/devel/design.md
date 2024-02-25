@@ -23,7 +23,7 @@ application-wide tasks.
 
 ### [atspi][atspi-crate] -- Accessibility Interface
 
-[atspi-crate]: <https://github.com/odilia-app/odilia/tree/main/atspi>
+[atspi-crate]: <https://github.com/odilia-app/atspi>
 
 This crate communicates with the [Assistive Technology Service Provider Interface][at-spi], which allows Odilia to
 access and present the content in applications and the desktop environment.
