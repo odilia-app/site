@@ -28,7 +28,7 @@ application-wide tasks.
 This crate communicates with the [Assistive Technology Service Provider Interface][at-spi], which allows Odilia to
 access and present the content in applications and the desktop environment.
 
-[at-spi]: <https://www.freedesktop.org/wiki/Accessibility/AT-SPI>
+[at-spi]: <https://www.freedesktop.org/wiki/Accessibility/AT-SPI2>
 
 ### [odilia-cache][odilia-cache] -- A Cache for Accessibile Items on the Desktop
 
